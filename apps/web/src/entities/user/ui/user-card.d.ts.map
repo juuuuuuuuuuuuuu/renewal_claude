@@ -1,0 +1,1 @@
+{"version":3,"file":"user-card.d.ts","sourceRoot":"","sources":["user-card.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,4BAA4B,CAAA;AAEtD,UAAU,aAAa;IACrB,IAAI,EAAE,IAAI,CAAA;IACV,OAAO,CAAC,EAAE,MAAM,IAAI,CAAA;CACrB;AAED,wBAAgB,QAAQ,CAAC,EAAE,IAAI,EAAE,OAAO,EAAE,EAAE,aAAa,2CAoBxD"}

@@ -1,0 +1,9 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Bell } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { Button, Popover, PopoverContent, PopoverTrigger, Separator, Badge, } from '@hub/ui';
+export function NotificationPanel({ notifications = [], unreadCount = 0 }) {
+    const { t } = useTranslation();
+    return (_jsxs(Popover, { children: [_jsx(PopoverTrigger, { asChild: true, children: _jsxs(Button, { variant: "ghost", size: "icon", className: "relative", "aria-label": "\uC54C\uB9BC", children: [_jsx(Bell, { className: "h-5 w-5" }), unreadCount > 0 && (_jsx(Badge, { variant: "destructive", className: "absolute -top-1 -right-1 h-5 w-5 rounded-full p-0 flex items-center justify-center text-xs", children: unreadCount > 99 ? '99+' : unreadCount }))] }) }), _jsxs(PopoverContent, { className: "w-80 p-0", align: "end", children: [_jsxs("div", { className: "flex items-center justify-between p-4", children: [_jsx("h3", { className: "font-semibold", children: "\uC54C\uB9BC" }), unreadCount > 0 && (_jsx(Button, { variant: "ghost", size: "sm", className: "text-xs text-muted-foreground", children: "\uBAA8\uB450 \uC77D\uC74C" }))] }), _jsx(Separator, {}), notifications.length === 0 ? (_jsx("p", { className: "p-4 text-center text-sm text-muted-foreground", children: "\uC0C8 \uC54C\uB9BC\uC774 \uC5C6\uC2B5\uB2C8\uB2E4" })) : (_jsx("ul", { className: "max-h-80 overflow-y-auto", children: notifications.map((n) => (_jsxs("li", { children: [_jsxs("button", { className: `w-full text-left px-4 py-3 hover:bg-accent transition-colors ${!n.isRead ? 'bg-muted/50' : ''}`, children: [_jsx("p", { className: `text-sm font-medium ${!n.isRead ? '' : 'text-muted-foreground'}`, children: n.title }), _jsx("p", { className: "text-xs text-muted-foreground mt-1 line-clamp-2", children: n.body })] }), _jsx(Separator, {})] }, n.id))) }))] })] }));
+}
+//# sourceMappingURL=notification-panel.js.map

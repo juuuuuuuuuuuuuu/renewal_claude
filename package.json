@@ -1,0 +1,20 @@
+{
+  "name": "hub-renewal",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "type-check": "turbo run type-check",
+    "storybook": "turbo run storybook --filter=@hub/ui",
+    "storybook:build": "turbo run storybook:build --filter=@hub/ui",
+    "clean": "turbo run clean && rimraf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
+  }
+}

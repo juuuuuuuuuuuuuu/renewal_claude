@@ -1,0 +1,70 @@
+{
+  "common": {
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "confirm": "확인",
+    "edit": "수정",
+    "create": "등록",
+    "search": "검색",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "empty": "데이터가 없습니다",
+    "back": "뒤로",
+    "next": "다음",
+    "prev": "이전",
+    "close": "닫기",
+    "submit": "제출",
+    "reset": "초기화"
+  },
+  "nav": {
+    "home": "홈",
+    "community": "커뮤니티",
+    "leave": "휴가 관리",
+    "notice": "공지사항",
+    "profile": "프로필",
+    "organization": "조직도",
+    "attendance": "근태관리",
+    "approval": "결재",
+    "settings": "설정"
+  },
+  "auth": {
+    "login": "로그인",
+    "logout": "로그아웃",
+    "sso_login": "SSO 로그인",
+    "login_description": "사내 계정으로 로그인하세요"
+  },
+  "community": {
+    "title": "커뮤니티",
+    "write": "글쓰기",
+    "no_posts": "게시글이 없습니다"
+  },
+  "leave": {
+    "title": "휴가 관리",
+    "request": "휴가 신청",
+    "calendar": "휴가 캘린더",
+    "remaining": "잔여 휴가",
+    "annual": "연차",
+    "sick": "병가",
+    "special": "특별휴가"
+  },
+  "notice": {
+    "title": "공지사항",
+    "pinned": "중요 공지"
+  },
+  "attendance": {
+    "title": "근태관리",
+    "check_in": "출근",
+    "check_out": "퇴근",
+    "work_hours": "근무시간"
+  },
+  "approval": {
+    "title": "결재",
+    "request": "결재 요청",
+    "approve": "승인",
+    "reject": "반려",
+    "pending": "대기",
+    "approved": "승인됨",
+    "rejected": "반려됨"
+  }
+}

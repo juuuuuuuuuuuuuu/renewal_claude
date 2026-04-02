@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(python3:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm --filter @hub/web exec tsc --noEmit)",
+      "Bash(for file:*)",
+      "Bash(do)",
+      "Bash(sed -i '' \"s|from ''@entities/[^/]*/user/model/types''|from ''@entities/user/model/types''|g\" \"$file\")",
+      "Bash(echo \"fixed: $file\")",
+      "Bash(done)",
+      "Bash(pnpm create:*)",
+      "Bash(source ~/.nvm/nvm.sh)",
+      "Bash(nvm use:*)",
+      "Bash(nvm ls:*)",
+      "Bash(pnpm --filter @hub/sample build)",
+      "Bash(claude mcp:*)",
+      "mcp__figma__use_figma",
+      "mcp__figma__get_design_context",
+      "mcp__figma__get_metadata",
+      "mcp__figma__get_code_connect_suggestions",
+      "mcp__figma__send_code_connect_mappings"
+    ]
+  }
+}

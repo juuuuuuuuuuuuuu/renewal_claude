@@ -1,0 +1,70 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "confirm": "確認",
+    "edit": "編集",
+    "create": "登録",
+    "search": "検索",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "empty": "データがありません",
+    "back": "戻る",
+    "next": "次へ",
+    "prev": "前へ",
+    "close": "閉じる",
+    "submit": "送信",
+    "reset": "リセット"
+  },
+  "nav": {
+    "home": "ホーム",
+    "community": "コミュニティ",
+    "leave": "休暇管理",
+    "notice": "お知らせ",
+    "profile": "プロフィール",
+    "organization": "組織図",
+    "attendance": "勤怠管理",
+    "approval": "承認",
+    "settings": "設定"
+  },
+  "auth": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "sso_login": "SSOログイン",
+    "login_description": "社内アカウントでログインしてください"
+  },
+  "community": {
+    "title": "コミュニティ",
+    "write": "投稿",
+    "no_posts": "投稿がありません"
+  },
+  "leave": {
+    "title": "休暇管理",
+    "request": "休暇申請",
+    "calendar": "休暇カレンダー",
+    "remaining": "残余休暇",
+    "annual": "年次有給",
+    "sick": "病気休暇",
+    "special": "特別休暇"
+  },
+  "notice": {
+    "title": "お知らせ",
+    "pinned": "重要なお知らせ"
+  },
+  "attendance": {
+    "title": "勤怠管理",
+    "check_in": "出勤",
+    "check_out": "退勤",
+    "work_hours": "勤務時間"
+  },
+  "approval": {
+    "title": "承認",
+    "request": "承認申請",
+    "approve": "承認",
+    "reject": "却下",
+    "pending": "保留",
+    "approved": "承認済み",
+    "rejected": "却下済み"
+  }
+}

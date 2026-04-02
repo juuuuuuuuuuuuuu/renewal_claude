@@ -1,0 +1,70 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "empty": "No data",
+    "back": "Back",
+    "next": "Next",
+    "prev": "Previous",
+    "close": "Close",
+    "submit": "Submit",
+    "reset": "Reset"
+  },
+  "nav": {
+    "home": "Home",
+    "community": "Community",
+    "leave": "Leave",
+    "notice": "Notice",
+    "profile": "Profile",
+    "organization": "Organization",
+    "attendance": "Attendance",
+    "approval": "Approval",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "sso_login": "SSO Login",
+    "login_description": "Sign in with your corporate account"
+  },
+  "community": {
+    "title": "Community",
+    "write": "Write",
+    "no_posts": "No posts"
+  },
+  "leave": {
+    "title": "Leave Management",
+    "request": "Request Leave",
+    "calendar": "Leave Calendar",
+    "remaining": "Remaining Days",
+    "annual": "Annual",
+    "sick": "Sick Leave",
+    "special": "Special Leave"
+  },
+  "notice": {
+    "title": "Notice",
+    "pinned": "Pinned"
+  },
+  "attendance": {
+    "title": "Attendance",
+    "check_in": "Check In",
+    "check_out": "Check Out",
+    "work_hours": "Work Hours"
+  },
+  "approval": {
+    "title": "Approval",
+    "request": "Request",
+    "approve": "Approve",
+    "reject": "Reject",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  }
+}

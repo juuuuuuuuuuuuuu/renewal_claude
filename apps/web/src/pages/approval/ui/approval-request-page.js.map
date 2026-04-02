@@ -1,0 +1,1 @@
+{"version":3,"file":"approval-request-page.js","sourceRoot":"","sources":["approval-request-page.tsx"],"names":[],"mappings":";AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,YAAY,CAAA;AACvC,OAAO,EAAE,mBAAmB,EAAE,MAAM,4BAA4B,CAAA;AAEhE,MAAM,UAAU,mBAAmB;IACjC,OAAO,CACL,eAAK,SAAS,EAAC,qBAAqB,aAClC,KAAC,UAAU,IAAC,KAAK,EAAC,2BAAO,GAAG,EAC5B,KAAC,mBAAmB,KAAG,IACnB,CACP,CAAA;AACH,CAAC"}

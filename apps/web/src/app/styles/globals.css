@@ -1,0 +1,5 @@
+@import '@hub/ui/styles';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

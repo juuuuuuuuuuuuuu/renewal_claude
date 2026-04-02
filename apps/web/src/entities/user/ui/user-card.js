@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Avatar, AvatarFallback, AvatarImage, Badge, Card, CardContent } from '@hub/ui';
+export function UserCard({ user, onClick }) {
+    return (_jsx(Card, { className: onClick ? 'cursor-pointer hover:shadow-md transition-shadow' : '', onClick: onClick, children: _jsxs(CardContent, { className: "flex items-center gap-3 p-4", children: [_jsxs(Avatar, { children: [_jsx(AvatarImage, { src: user.profileImage, alt: user.name }), _jsx(AvatarFallback, { children: user.name.slice(0, 2) })] }), _jsxs("div", { className: "flex-1 min-w-0", children: [_jsx("p", { className: "font-medium truncate", children: user.name }), _jsx("p", { className: "text-sm text-muted-foreground truncate", children: user.position }), _jsx("p", { className: "text-xs text-muted-foreground truncate", children: user.department })] }), user.role === 'admin' && _jsx(Badge, { variant: "secondary", children: "\uAD00\uB9AC\uC790" })] }) }));
+}
+//# sourceMappingURL=user-card.js.map
