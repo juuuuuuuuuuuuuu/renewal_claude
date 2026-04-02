@@ -2,10 +2,9 @@ import { jsx as _jsx } from "react/jsx-runtime";
 import { lazy, Suspense } from 'react';
 import { createBrowserRouter, RouterProvider, Navigate, Outlet, } from 'react-router-dom';
 import { AuthGuard } from './auth-guard';
-
 const AppLayout = lazy(() => import('../widgets/layout').then((m) => ({ default: m.AppLayout })));
 const DashboardPage = lazy(() => import('../pages/home').then((m) => ({ default: m.DashboardPage })));
-const KonDashboardPage = lazy(() => import('../pages/home/ui/kon-dashboard-page').then((m) => ({ default: m.KonDashboardPage })));
+const KonDashboardPage = lazy(() => import('../pages/home').then((m) => ({ default: m.KonDashboardPage })));
 const CommunityListPage = lazy(() => import('../pages/community').then((m) => ({ default: m.CommunityListPage })));
 const CommunityDetailPage = lazy(() => import('../pages/community').then((m) => ({ default: m.CommunityDetailPage })));
 const CommunityWritePage = lazy(() => import('../pages/community').then((m) => ({ default: m.CommunityWritePage })));
@@ -34,6 +33,10 @@ const router = createBrowserRouter([
         element: (_jsx(Suspense, { fallback: _jsx(PageLoader, {}), children: _jsx(LoginPage, {}) })),
     },
     {
+        path: '/kon',
+        element: (_jsx(Suspense, { fallback: _jsx(PageLoader, {}), children: _jsx(KonDashboardPage, {}) })),
+    },
+    {
         element: _jsx(ProtectedLayout, {}),
         children: [
             { index: true, element: _jsx(DashboardPage, {}) },
@@ -52,7 +55,6 @@ const router = createBrowserRouter([
             { path: 'approval/request', element: _jsx(ApprovalRequestPage, {}) },
             { path: 'approval/:id', element: _jsx(ApprovalDetailPage, {}) },
             { path: 'settings', element: _jsx(SettingsPage, {}) },
-            { path: 'kon', element: _jsx(KonDashboardPage, {}) },
         ],
     },
     { path: '*', element: _jsx(Navigate, { to: "/", replace: true }) },

@@ -9,6 +9,6 @@ export const useAuthStore = create()(persist((set) => ({
     logout: () => set({ user: null, token: null, isAuthenticated: false }),
 }), {
     name: 'hub-auth',
-    partialize: (state) => ({ token: state.token }),
+    partialize: (state) => ({ token: state.token, isAuthenticated: state.isAuthenticated }),
 }));
 //# sourceMappingURL=auth-store.js.map

@@ -21,6 +21,7 @@ export declare const useAuthStore: import("zustand").UseBoundStore<Omit<import("
     persist: {
         setOptions: (options: Partial<import("zustand/middleware").PersistOptions<AuthStore, {
             token: string | null;
+            isAuthenticated: boolean;
         }, unknown>>) => void;
         clearStorage: () => void;
         rehydrate: () => Promise<void> | void;
@@ -29,6 +30,7 @@ export declare const useAuthStore: import("zustand").UseBoundStore<Omit<import("
         onFinishHydration: (fn: (state: AuthStore) => void) => () => void;
         getOptions: () => Partial<import("zustand/middleware").PersistOptions<AuthStore, {
             token: string | null;
+            isAuthenticated: boolean;
         }, unknown>>;
     };
 }>;

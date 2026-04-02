@@ -20,7 +20,16 @@
       "mcp__figma__get_design_context",
       "mcp__figma__get_metadata",
       "mcp__figma__get_code_connect_suggestions",
-      "mcp__figma__send_code_connect_mappings"
+      "mcp__figma__send_code_connect_mappings",
+      "Bash(bash .specify/scripts/bash/setup-plan.sh --json)",
+      "Bash(bash .specify/scripts/bash/update-agent-context.sh claude)",
+      "Bash(bash .specify/scripts/bash/check-prerequisites.sh --json)",
+      "Bash(bash .specify/scripts/bash/check-prerequisites.sh --json --require-tasks --include-tasks)",
+      "Bash(pnpm --filter @hub/web add react-grid-layout recharts nanoid)",
+      "Bash(pnpm --filter @hub/web add -D @types/react-grid-layout)",
+      "Bash(pnpm --filter @hub/web type-check)",
+      "Bash(find /Users/juuyoung/Documents/workspace_enterprise/hub_renewal_claude -path */react-grid-layout/*.d.ts)",
+      "Bash(pnpm --filter @hub/web build)"
     ]
   }
 }

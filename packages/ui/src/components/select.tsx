@@ -278,7 +278,10 @@ const MultiSelect = ({
                     {lbl}
                     <button
                       type="button"
-                      onClick={(e) => removeChip(value[value.findIndex((v) => options.find((o) => o.value === v && o.label === lbl)!)], e)}
+                      onClick={(e) => {
+                        const idx = value.findIndex((v) => options.find((o) => o.value === v && o.label === lbl))
+                        if (idx !== -1) removeChip(value[idx]!, e)
+                      }}
                       className="ml-0.5 rounded-full hover:bg-muted-foreground/20"
                     >
                       <X className="h-3 w-3" />

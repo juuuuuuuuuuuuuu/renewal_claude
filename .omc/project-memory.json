@@ -1,0 +1,292 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775111427405,
+  "projectRoot": "/Users/juuyoung/Documents/workspace_enterprise/hub_renewal_claude",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pnpm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "pnpm build",
+    "testCommand": "pnpm test",
+    "lintCommand": "pnpm lint",
+    "devCommand": "pnpm dev",
+    "scripts": {
+      "build": "turbo run build",
+      "dev": "turbo run dev",
+      "lint": "turbo run lint",
+      "test": "turbo run test",
+      "type-check": "turbo run type-check",
+      "storybook": "turbo run storybook --filter=@hub/ui",
+      "storybook:build": "turbo run storybook:build --filter=@hub/ui",
+      "clean": "turbo run clean && rimraf node_modules"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": true,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "apps": {
+      "path": "apps",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775111427345,
+      "keyFiles": []
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 7,
+      "lastAccessed": 1775111427348,
+      "keyFiles": [
+        "application-design.md",
+        "component-dependency.md",
+        "component-methods.md",
+        "components.md",
+        "requirements.md"
+      ]
+    },
+    "packages": {
+      "path": "packages",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775111427348,
+      "keyFiles": []
+    },
+    "packages/config": {
+      "path": "packages/config",
+      "purpose": "Configuration files",
+      "fileCount": 1,
+      "lastAccessed": 1775111427348,
+      "keyFiles": [
+        "package.json"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "specs/001-custom-dashboard/tasks.md",
+      "accessCount": 9,
+      "lastAccessed": 1775122506402,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/widgets/dashboard/ui/dashboard-grid.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775122349988,
+      "type": "file"
+    },
+    {
+      "path": "specs/001-custom-dashboard/spec.md",
+      "accessCount": 3,
+      "lastAccessed": 1775121706901,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775122418233,
+      "type": "file"
+    },
+    {
+      "path": ".specify/memory/constitution.md",
+      "accessCount": 2,
+      "lastAccessed": 1775121712216,
+      "type": "file"
+    },
+    {
+      "path": "specs/001-custom-dashboard/plan.md",
+      "accessCount": 2,
+      "lastAccessed": 1775121747539,
+      "type": "file"
+    },
+    {
+      "path": "specs/001-custom-dashboard/checklists/requirements.md",
+      "accessCount": 2,
+      "lastAccessed": 1775122038503,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/pages/home/ui/dashboard-page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775122180959,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/entities/widget/index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775122189173,
+      "type": "file"
+    },
+    {
+      "path": "packages/ui/src/components/select.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775122392199,
+      "type": "file"
+    },
+    {
+      "path": ".specify/init-options.json",
+      "accessCount": 1,
+      "lastAccessed": 1775111496264,
+      "type": "file"
+    },
+    {
+      "path": ".specify/templates/spec-template.md",
+      "accessCount": 1,
+      "lastAccessed": 1775121387254,
+      "type": "file"
+    },
+    {
+      "path": "specs/001-custom-dashboard/research.md",
+      "accessCount": 1,
+      "lastAccessed": 1775121772708,
+      "type": "file"
+    },
+    {
+      "path": "specs/001-custom-dashboard/data-model.md",
+      "accessCount": 1,
+      "lastAccessed": 1775121792211,
+      "type": "file"
+    },
+    {
+      "path": "specs/001-custom-dashboard/contracts/widget-registry.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775121811907,
+      "type": "file"
+    },
+    {
+      "path": "specs/001-custom-dashboard/quickstart.md",
+      "accessCount": 1,
+      "lastAccessed": 1775121836226,
+      "type": "file"
+    },
+    {
+      "path": ".specify/templates/tasks-template.md",
+      "accessCount": 1,
+      "lastAccessed": 1775121883631,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/shared/model/ui-store.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775122045281,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/app/index.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122064773,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/features/dashboard-layout/model/types.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775122086379,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/features/dashboard-layout/model/widget-registry.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775122096797,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/entities/widget/ui/charts/bar-chart-widget.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122101192,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/entities/widget/ui/charts/line-chart-widget.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122103321,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/entities/widget/ui/charts/area-chart-widget.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122107199,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/entities/widget/ui/charts/pie-chart-widget.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122110819,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/entities/widget/ui/charts/stat-card-widget.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122115377,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/features/dashboard-layout/model/layout-store.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775122133722,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/features/dashboard-layout/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775122140332,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/widgets/dashboard/ui/widget-container.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122156709,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/entities/widget/ui/widget-thumbnail.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122161632,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/widgets/dashboard/ui/add-widget-dialog.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775122166167,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/widgets/dashboard/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775122182261,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

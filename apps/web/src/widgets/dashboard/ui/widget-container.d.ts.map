@@ -1,0 +1,1 @@
+{"version":3,"file":"widget-container.d.ts","sourceRoot":"","sources":["widget-container.tsx"],"names":[],"mappings":"AAKA,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAA;AAEhE,UAAU,oBAAoB;IAC5B,MAAM,EAAE,cAAc,CAAA;IACtB,QAAQ,EAAE,MAAM,IAAI,CAAA;CACrB;AAED,wBAAgB,eAAe,CAAC,EAAE,MAAM,EAAE,QAAQ,EAAE,EAAE,oBAAoB,kDA0BzE"}
