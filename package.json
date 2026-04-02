@@ -8,6 +8,7 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "type-check": "turbo run type-check",
+    "build:web": "turbo run build --filter=@hub/web",
     "storybook": "turbo run storybook --filter=@hub/ui",
     "storybook:build": "turbo run storybook:build --filter=@hub/ui",
     "clean": "turbo run clean && rimraf node_modules"

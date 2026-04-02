@@ -156,6 +156,12 @@
       "type": "file"
     },
     {
+      "path": "package.json",
+      "accessCount": 2,
+      "lastAccessed": 1775123374960,
+      "type": "file"
+    },
+    {
       "path": ".specify/init-options.json",
       "accessCount": 1,
       "lastAccessed": 1775111496264,
@@ -285,6 +291,12 @@
       "path": "apps/web/src/widgets/dashboard/index.ts",
       "accessCount": 1,
       "lastAccessed": 1775122182261,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1775123360959,
       "type": "file"
     }
   ],
