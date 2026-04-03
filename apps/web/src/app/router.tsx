@@ -88,14 +88,14 @@ function ProtectedLayout() {
 }
 
 const router = createBrowserRouter([
-  {
-    path: '/login',
-    element: (
-      <Suspense fallback={<PageLoader />}>
-        <LoginPage />
-      </Suspense>
-    ),
-  },
+  // {
+  //   path: '/login',
+  //   element: (
+  //     <Suspense fallback={<PageLoader />}>
+  //       <LoginPage />
+  //     </Suspense>
+  //   ),
+  // },
   {
     path: '/kon',
     element: (

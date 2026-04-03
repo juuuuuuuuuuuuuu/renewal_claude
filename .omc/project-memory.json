@@ -310,6 +310,12 @@
       "accessCount": 1,
       "lastAccessed": 1775178591615,
       "type": "file"
+    },
+    {
+      "path": "apps/web/vercel.json",
+      "accessCount": 1,
+      "lastAccessed": 1775179455961,
+      "type": "file"
     }
   ],
   "userDirectives": []

@@ -19,7 +19,7 @@ const AttendancePage = lazy(() => import('../pages/attendance').then((m) => ({ d
 const ApprovalListPage = lazy(() => import('../pages/approval').then((m) => ({ default: m.ApprovalListPage })));
 const ApprovalDetailPage = lazy(() => import('../pages/approval').then((m) => ({ default: m.ApprovalDetailPage })));
 const ApprovalRequestPage = lazy(() => import('../pages/approval').then((m) => ({ default: m.ApprovalRequestPage })));
-const LoginPage = lazy(() => import('../pages/auth').then((m) => ({ default: m.LoginPage })));
+// const LoginPage = lazy(() => import('../pages/auth').then((m) => ({ default: m.LoginPage })));
 const SettingsPage = lazy(() => import('../pages/settings').then((m) => ({ default: m.SettingsPage })));
 function PageLoader() {
     return (_jsx("div", { className: "flex h-full items-center justify-center", children: _jsx("div", { className: "h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent" }) }));
@@ -28,10 +28,10 @@ function ProtectedLayout() {
     return (_jsx(AuthGuard, { children: _jsx(Suspense, { fallback: _jsx(PageLoader, {}), children: _jsx(AppLayout, { children: _jsx(Outlet, {}) }) }) }));
 }
 const router = createBrowserRouter([
-    {
-        path: '/login',
-        element: (_jsx(Suspense, { fallback: _jsx(PageLoader, {}), children: _jsx(LoginPage, {}) })),
-    },
+    // {
+    //     path: '/login',
+    //     element: (_jsx(Suspense, { fallback: _jsx(PageLoader, {}), children: _jsx(LoginPage, {}) })),
+    // },
     {
         path: '/kon',
         element: (_jsx(Suspense, { fallback: _jsx(PageLoader, {}), children: _jsx(KonDashboardPage, {}) })),
