@@ -102,6 +102,12 @@
       "type": "file"
     },
     {
+      "path": "package.json",
+      "accessCount": 5,
+      "lastAccessed": 1775179272155,
+      "type": "file"
+    },
+    {
       "path": "apps/web/src/widgets/dashboard/ui/dashboard-grid.tsx",
       "accessCount": 4,
       "lastAccessed": 1775122349988,
@@ -153,12 +159,6 @@
       "path": "packages/ui/src/components/select.tsx",
       "accessCount": 2,
       "lastAccessed": 1775122392199,
-      "type": "file"
-    },
-    {
-      "path": "package.json",
-      "accessCount": 2,
-      "lastAccessed": 1775123374960,
       "type": "file"
     },
     {
@@ -297,6 +297,18 @@
       "path": "apps/web/package.json",
       "accessCount": 1,
       "lastAccessed": 1775123360959,
+      "type": "file"
+    },
+    {
+      "path": "apps/web/src/app/providers.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775124923201,
+      "type": "file"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1775178591615,
       "type": "file"
     }
   ],
